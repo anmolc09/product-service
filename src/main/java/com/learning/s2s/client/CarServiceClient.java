@@ -9,6 +9,6 @@ import java.util.List;
 @FeignClient(name = "car-service-client", url = "${s2s.url}")
 public interface CarServiceClient {
 
-    @GetMapping
-    List<Car> getAllCars();
+    @GetMapping("/all-cars")
+    List<Car> findAllCars();
 }

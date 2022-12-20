@@ -15,5 +15,5 @@ server:
     error:
         include-message: always
 s2s:
-    url: http://localhost:8081/cars
+    url: http://localhost:8081/car
 
